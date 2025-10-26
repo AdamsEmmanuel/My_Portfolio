@@ -52,6 +52,26 @@ export default function Home() {
     <div className={`relative ${data.showCursor && "cursor-none"}`}>
       {data.showCursor && <Cursor />}
       <Head>
+        <!-- Primary Meta Tags -->
+<title>Adams Emmanuel Ojonugwa | Backend Engineer & AI Developer</title>
+<meta name="title" content="Adams Emmanuel Ojonugwa | Backend Engineer & AI Developer">
+<meta name="description" content="Portfolio of Adams Emmanuel Ojonugwa — Backend Engineer & AI Developer specializing in FastAPI, Flask, Node.js, and AI automation. Creator of StreamServe, LeadSift, and SaaS scheduling tools.">
+<meta name="keywords" content="FastAPI Developer, Backend Engineer Nigeria, Flask Developer, SaaS Engineer, AI Developer, StreamServe, LeadSift, FastAPI Portfolio">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://adams-portfolio.vercel.app/">
+<meta property="og:title" content="Adams Emmanuel Ojonugwa | Backend Engineer & AI Developer">
+<meta property="og:description" content="Building scalable systems and intelligent software for businesses and startups.">
+<meta property="og:image" content="https://adams-portfolio.vercel.app/profile.jpg">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://adams-portfolio.vercel.app/">
+<meta property="twitter:title" content="Adams Emmanuel Ojonugwa | Backend Engineer & AI Developer">
+<meta property="twitter:description" content="Building scalable systems and intelligent software for businesses and startups.">
+<meta property="twitter:image" content="https://adams-portfolio.vercel.app/profile.jpg">
+
         <title>{data.name}</title>
       </Head>
 
